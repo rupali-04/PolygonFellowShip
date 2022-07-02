@@ -5,8 +5,8 @@ const {MaticPOSClient} = require('@maticnetwork/maticjs');
 const {seed,mumbai,goeril} = require('./secrets.json')
 //console.log();
 const from = "0x495B7Fcb455d8539C59C092c8cca59EA86fbF374";
-const rootToken = "0x8921b4b1f4797397701032e307293d2c41df3bc0";
-const amount = 10 * (10 ** 18);
+const rootToken = "0x5be6e37275c477fa53e67ce42a999ca280fc2586";
+const amount = 100 * (10 ** 18);
 //console.log(MaticPOSClient)
 const parentProvider = new HDWalletProvider(seed,goeril); 
 const maticProvider = new HDWalletProvider(seed,mumbai)  
